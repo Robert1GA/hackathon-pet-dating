@@ -1,6 +1,6 @@
 angular.module('App')
 .component('profileComp', {
-  templateUrl: 'containers/profile/profile.html',
+  templateUrl: 'app/containers/profile/profile.html',
   controller: 'ProfileCompCtrl',
   controllerAs: 'profileComp'
 })

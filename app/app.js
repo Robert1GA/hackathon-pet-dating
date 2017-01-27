@@ -18,8 +18,8 @@ angular.module('App',['ui.router'])
     component: 'profileComp'
   })
 
-  //Removes # symbol for our routes
-  //$locationProvider.html5Mode(true);
+  // // Removes # symbol for our routes
+  $locationProvider.html5Mode(true);
 
   }
 ]);
