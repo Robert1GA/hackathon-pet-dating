@@ -1,25 +1,20 @@
 <div class="body-container">
-	<div class="browse-tile" ng-repeat="user in browseList.users track by $index">
-  	<a ui-sref="#">
-  		<div class="browse-img-container">
-  			<img ng-src="{{user.photo}}"" class="profile-thumb" alt=""/>
-  		</div>
-  		<div class="browse-info-container">
-  			<h3>{{user.username}}</h3>
-  			<p>{{user.age}} &bull; {{user.gender}}</p>
-  			<div class="browse-info-pets">
-  				<span>
-  					<img class="animal-icon" src="../static/img/icon_cat.svg"/><p>3</p>
-  				</span>
-  				<span>
-  					<img class="animal-icon" src="../static/img/icon_dog.svg"/><p>1</p>
-  				</span>
-  			</div>
-  			<button class="btn">View Profile</button>
-  		</div>
-  	<a>
+	<div ui-sref="profileShowState({index: $index})" class="browse-tile" ng-repeat="user in browseList.users track by $index">
+		<div class="browse-img-container">
+			<img ng-src="{{user.photo}}"" class="profile-thumb" alt=""/>
+		</div>
+		<div class="browse-info-container">
+			<h3>{{user.username}}</h3>
+			<p>{{user.age}} &bull; {{user.gender}}</p>
+			<div class="browse-info-pets">
+				<span>
+					<img class="animal-icon" src="../static/img/icon_cat.svg"/><p>3</p>
+				</span>
+				<span>
+					<img class="animal-icon" src="../static/img/icon_dog.svg"/><p>1</p>
+				</span>
+			</div>
+			<button class="btn">View Profile</button>
+		</div>
 	</div>
-
-	<br><h1>browseList.html</h1>
-
 </div>

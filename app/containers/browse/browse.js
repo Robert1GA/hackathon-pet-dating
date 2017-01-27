@@ -1,7 +1,7 @@
 angular.module('App')
 .component('browseComp', {
   templateUrl: 'app/containers/browse/browse.html',
-  controller: 'BrowseCompCtrl',
+  controller: BrowseCompCtrl,
   controllerAs: 'browseComp'
 });
 
