@@ -5,9 +5,9 @@ angular.module('App')
   controllerAs: 'profileComp'
 });
 
-function ProfileCompCtrl() {
-
-
+function ProfileCompCtrl($stateParams) {
+	console.log("stateparams", $stateParams)
+	console.log("user",$stateParams.user)
 }
 
-ProfileCompCtrl.$inject = [];
+ProfileCompCtrl.$inject = ['$stateParams'];

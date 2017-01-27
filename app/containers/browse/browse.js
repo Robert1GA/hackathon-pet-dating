@@ -5,8 +5,13 @@ angular.module('App')
   controllerAs: 'browseComp'
 });
 
-function BrowseCompCtrl() {
-
+function BrowseCompCtrl($scope, $state, $stateParams) {
+	console.log("stateparams", $stateParams)
+	console.log("user", $stateParams.user)
+	$scope.viewProfile = function(index, user) {
+		console.log("hello");
+		$state.go('profileState', {index: index, user: user});
+	}
 }
 
-BrowseCompCtrl.$inject = [];
+BrowseCompCtrl.$inject = ['$scope', '$state', '$stateParams'];
