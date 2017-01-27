@@ -1,0 +1,158 @@
+/*** GLOBAL STYLES ***/
+
+body {
+	font-family: 'Rubik', sans-serif;
+	background-color: #F1F1EF;
+	padding: 0;
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	overflow-x: hidden;
+}
+
+.body-container {
+	width: 900px;
+}
+
+h3 {
+	font-size: 25px;
+	font-weight: 400;
+}
+
+p {
+	font-size: 16px;
+}
+
+.btn {
+	background-color: #FF4A63;
+	border: none;
+	border-radius: 4px;
+	margin: 4px 0 8px 0;
+	padding: 10px 14px 11px 14px;
+	box-shadow: 0 4px 0 #e9354e;
+	color: white;
+	font-size: 15px;
+	font-weight: 700;
+	cursor: pointer;
+	transition-property: transform, box-shadow;
+	transition-duration: 300ms;
+}
+
+.btn:hover {
+	transform: translateY(-2px);
+	box-shadow: 0 6px 0 #e9354e;
+}
+
+
+/*** NAV BAR STYLES ***/
+
+#brand-logo {
+	width: 150px;
+	transition-property: filter;
+	transition-duration: 300ms;
+}
+
+#brand-logo:hover {
+	filter: brightness(110%);
+}
+
+#nav-bar {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	background-color: #3360C7;
+	margin-bottom: 3%;
+	padding: 25px;
+	box-shadow: inset 0 -20px 40px -20px rgba(3,45,140,1);
+}
+
+#nav-bar a {
+	color: #E6E6E4;
+	text-decoration: none;
+	font-weight: 500;
+	margin-left: 40px;
+	transition-property: color;
+	transition-duration: 300ms;
+}
+
+#nav-bar a:hover {
+	color: white;
+}
+
+
+/*** BROWSE STYLES ***/
+
+.browse-tile {
+	text-align: center;
+	width: 250px;
+	box-shadow: 0 3px 22px #DCDCDB;
+	cursor: pointer;
+	transition-property: box-shadow;
+	transition-duration: 300ms;
+}
+
+.browse-tile:hover {
+	box-shadow: 0 3px 40px #cececa;
+}
+
+.browse-img-container {
+	width: 100%;
+	height: 250px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
+	border-radius: 6px 6px 0 0;
+}
+
+.browse-img-container img {
+	height: 250px;
+}
+
+.browse-info-container {
+	padding: 9px 0 20px 0;
+	border-radius: 0 0 6px 6px;
+	background-color: white;
+}
+
+.browse-info-container h3, 
+.browse-info-container p, 
+.browse-info-container div  {
+	margin: 10px;
+}
+
+.browse-info-container h3 {
+	color: #3594F7;
+}
+
+.animal-icon {
+	margin: 0;
+	padding: 0;
+	height: 32px;
+	width: 32px;
+}
+
+.browse-info-container img {
+	margin: 0 8px;
+}
+
+.browse-info-container span {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.browse-info-pets {
+	display: flex;
+	justify-content: center;
+}
+
+.browse-info-pets span {
+	margin: 0 3px;
+}
+
+.browse-info-pets p {
+	margin-left: 0;
+}

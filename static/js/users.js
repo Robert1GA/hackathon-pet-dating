@@ -12,7 +12,7 @@ users = [
 			],
 			dogs: [
 				{name: "Nacho", img: ""}
-				]
+			]
 		},
 	},
 	{
@@ -28,7 +28,7 @@ users = [
 			],
 			dogs: [
 				{name: "Nacho", img: ""}
-				]
+			]
 		},
 	},
 	{
@@ -44,7 +44,7 @@ users = [
 			],
 			dogs: [
 				{name: "Nacho", img: ""}
-				]
+			]
 		},
 	},
 	{
@@ -60,7 +60,7 @@ users = [
 			],
 			dogs: [
 				{name: "Nacho", img: ""}
-				]
+			]
 		},
 	},
 	{
@@ -76,7 +76,7 @@ users = [
 			],
 			dogs: [
 				{name: "Nacho", img: ""}
-				]
+			]
 		},
 	},
 	{
@@ -92,7 +92,7 @@ users = [
 			],
 			dogs: [
 				{name: "Nacho", img: ""}
-				]
+			]
 		},
 	},
 	{
@@ -108,7 +108,7 @@ users = [
 			],
 			dogs: [
 				{name: "Nacho", img: ""}
-				]
+			]
 		},
 	},
 	{
@@ -124,7 +124,7 @@ users = [
 			],
 			dogs: [
 				{name: "Nacho", img: ""}
-				]
+			]
 		},
 	},
 	{
@@ -140,7 +140,7 @@ users = [
 			],
 			dogs: [
 				{name: "Nacho", img: ""}
-				]
+			]
 		},
 	},
 	{
@@ -156,7 +156,7 @@ users = [
 			],
 			dogs: [
 				{name: "Nacho", img: ""}
-				]
+			]
 		},
 	},
 	{
@@ -172,7 +172,7 @@ users = [
 			],
 			dogs: [
 				{name: "Nacho", img: ""}
-				]
+			]
 		},
 	},
 	{
@@ -188,7 +188,7 @@ users = [
 			],
 			dogs: [
 				{name: "Nacho", img: ""}
-				]
+			]
 		},
 	},
 ]

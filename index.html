@@ -13,11 +13,21 @@
     <script src='app/containers/home/home.js'></script>
     <script src='app/containers/browse/browse.js'></script>
     <script src='app/containers/profile/profile.js'></script>
+
+    <link href="https://fonts.googleapis.com/css?family=Rubik:300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
+    <link rel="stylesheet" href="static/css/style.css">
   </head>
+
   <body>
-    <p>Home</p>
-    <div class="container">
-      <a ui-sref="profileState()">profile</a>
+    <div id="nav-bar">
+      <a ui-sref="homeState()">
+      <img src="static/img/logo.svg" id="brand-logo" alt="PetLife logo"/>
+      </a>
+      <a ui-sref="browseState()">Browse</a>
+      <a ui-sref="profileState()">Profile</a>
+    </div>
+
+    <div class="body-container">
       <div ui-view></div>
     </div>
 
