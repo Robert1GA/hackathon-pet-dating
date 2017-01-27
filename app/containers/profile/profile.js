@@ -5,9 +5,15 @@ angular.module('App')
   controllerAs: 'profileComp'
 });
 
-function ProfileCompCtrl($stateParams) {
-	console.log("stateparams", $stateParams)
-	console.log("user",$stateParams.user)
+function ProfileCompCtrl($stateParams, UserService) {
+  profileComp = this;
+  profileComp.something = "hey";
+  profileComp.user = UserService.getUser($stateParams.index);
+
+  console.log("stateparams", $stateParams)
+	console.log("user", profileComp.user)
+
+
 }
 
-ProfileCompCtrl.$inject = ['$stateParams'];
+ProfileCompCtrl.$inject = ['$stateParams', 'UserService'];
