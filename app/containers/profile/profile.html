@@ -14,10 +14,11 @@
     <div class="profile-overview">
       <h2>{{profileComp.user.username}}</h2>
       <p>Age: {{profileComp.user.age}}</p>
-      <p>Body type:</p>
-      <p>Hair:</p>
-      <p>Favorite animal:</p>
-
+      <p>Gender: {{profileComp.user.gender}}</p>
+      <p>Cats:</p>
+      <ul>
+        <li ng-repeat="cat in profileComp.user.cats track by $index">{{cat.name}}
+      </ul>
     </div>
   </div>
   <div class="clearfix">

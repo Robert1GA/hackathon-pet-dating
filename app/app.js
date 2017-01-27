@@ -13,10 +13,6 @@ angular.module('App',['ui.router'])
     url: '/browse',
     component: 'browseList'
   })
-  // .state('profileState', {
-  //   url: '/profile',
-  //   component: 'profileComp'
-  // })
   .state('profileShowState', {
     url: '/profile/:index',
     component: 'profileComp'
