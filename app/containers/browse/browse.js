@@ -3,10 +3,9 @@ angular.module('App')
   templateUrl: 'app/containers/browse/browse.html',
   controller: 'BrowseCompCtrl',
   controllerAs: 'browseComp'
-})
+});
 
 function BrowseCompCtrl() {
-  var browseComp = this;
 
 }
 

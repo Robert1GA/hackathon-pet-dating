@@ -3,10 +3,10 @@ angular.module('App')
   templateUrl: 'app/containers/profile/profile.html',
   controller: 'ProfileCompCtrl',
   controllerAs: 'profileComp'
-})
+});
 
 function ProfileCompCtrl() {
-  var profileComp = this;
+
 
 }
 

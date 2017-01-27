@@ -1,16 +1,94 @@
+body {
+  background-color: #AAA;
+  font-family:sans-serif;
+}
+
+#container {
+  background-color: #DDD;
+  border:solid black 5px;
+  width:900px;
+  text-align:center;
+  margin: 10px 10px 0px 250px;
+}
+
+
+
 .profile-pic {
-  width: 250px;
-  height: 200px;
+  height:300px;
+  width:250px;
+  display:inline-block;
+  position:relative;
+  padding: 0px 5px;
   float: left;
 }
 
-.pet-pic {
-  width: 250px;
-  height: 200px;
+.profile-pic img {
+  height: 250px;
+  width: 225px;
+  padding: 5px;
+  border: 2px solid grey;
+  margin-top: 25px;
 }
 
-.profileDetails {
-  /*float: left;*/
+.thumbContainer {
+  height:300px;
+  width:100px;
+  display:inline-block;
+  position:relative;
+  padding: 0px 5px;
+  float: left;
+}
+
+.profile-thumbs {
+  height:90px;
+  width:100px;
+  display:inline-block;
+  position:relative;
+  padding: 0px;
+  margin: 0;ß
+}
+
+.profile-overview {
+  height:300px;
+  width: 525px;
+  display:inline-block;
+  position:relative;
+  padding: 5px 5px 5px 25px;
+  float: left;
+  text-align: left;
+}
+
+.button-links {
+  color:grey;
+  text-align: left;
+  background-color: #AAA;
+  padding-bottom: 40px;
+}
+
+button {
+  height:30px;
+  margin: 10px;
+}
+
+.pet-details {
+
+  width: 600px;
+  display:inline-block;
+  position:relative;
+  padding: 5px 5px 5px 25px;
+  float: left;
+  text-align: left;
+  margin-top: -40px;
+  background-color: #DDD;
+}
+
+.profile-details {
+  width:250px;
+  display:inline-block;
+  position:relative;
+  padding: 5px 5px 5px 25px;
+  float: left;
+  text-align: left;
 }
 
 .clearfix {
