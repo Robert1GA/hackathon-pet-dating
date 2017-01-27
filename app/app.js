@@ -11,7 +11,7 @@ angular.module('App',['ui.router'])
   })
   .state('browseState', {
     url: '/browse',
-    component: 'browseComp'
+    component: 'browseList'
   })
   .state('profileState', {
     url: '/profile',
