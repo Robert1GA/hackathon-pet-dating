@@ -1,0 +1,18 @@
+.profile-pic {
+  width: 250px;
+  height: 200px;
+  float: left;
+}
+
+.pet-pic {
+  width: 250px;
+  height: 200px;
+}
+
+.profileDetails {
+  /*float: left;*/
+}
+
+.clearfix {
+  clear: both;
+}

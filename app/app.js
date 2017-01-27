@@ -1,6 +1,6 @@
 angular.module('App',['ui.router'])
-.config(['$stateProvider', '$urlRouterProvider', '$locationProvider',
-  function($stateProvider, $urlRouterProvider, $locationProvider) {
+.config(['$stateProvider', '$urlRouterProvider',
+  function($stateProvider, $urlRouterProvider) {
   $urlRouterProvider.otherwise('/');
 
   //Setup states (aka routes)
@@ -19,7 +19,7 @@ angular.module('App',['ui.router'])
   })
 
   // // Removes # symbol for our routes
-  $locationProvider.html5Mode(true);
+  // $locationProvider.html5Mode(true);
 
   }
 ]);

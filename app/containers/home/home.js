@@ -7,7 +7,6 @@ angular.module('App')
 
 function HomeCompCtrl() {
   var homeComp = this;
-
 }
 
 HomeCompCtrl.$inject = [];
