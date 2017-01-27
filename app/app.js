@@ -7,7 +7,7 @@ angular.module('App',['ui.router'])
   $stateProvider
   .state('homeState', {
     url: '/',
-    component: 'homeComp'
+    component: 'browseList'
   })
   .state('browseState', {
     url: '/browse',
