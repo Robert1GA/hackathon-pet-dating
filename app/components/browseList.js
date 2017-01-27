@@ -5,7 +5,7 @@ angular.module('App')
   controllerAs: 'browseList'
 });
 
-function browseListCtrl($http, BrowseService) {
+function browseListCtrl() {
   var browseList = this;
 
   browseList.users = [
@@ -13,31 +13,31 @@ function browseListCtrl($http, BrowseService) {
       username: "Dityzxrm",
       age: 30,
       gender: "female",
-      photo: "woman1.jpg",
+      photo: "../static/img/woman1.jpg",
       pets: {
         cats: [
-          {name: "Fluffy", img: ""},
-          {name: "Pip", img: ""},
-          {name: "Fester", img: ""}
+          {name: "Fluffy", img: "../static/img/cat_01.png"},
+          {name: "Pip", img: "../static/img/cat_01.png"},
+          {name: "Fester", img: "../static/img/cat_01.png"}
         ],
         dogs: [
-          {name: "Nacho", img: ""}
+          {name: "Nacho", img: "../static/img/cat_01.png"}
         ]
       },
     },
     {
-      username: "BrilliantBabe",
+      username: "PurrfectBabe82",
       age: 30,
       gender: "female",
-      photo: "woman1.jpg",
+      photo: "../static/img/woman1.jpg",
       pets: {
         cats: [
-          {name: "Fluffy", img: ""},
-          {name: "Pip", img: ""},
-          {name: "Fester", img: ""}
+          {name: "Fluffy", img: "../static/img/cat_01.png"},
+          {name: "Pip", img: "../static/img/cat_01.png"},
+          {name: "Fester", img: "../static/img/cat_01.png"}
         ],
         dogs: [
-          {name: "Nacho", img: ""}
+          {name: "Nacho", img: "../static/img/cat_01.png"}
         ]
       },
     },
@@ -45,15 +45,15 @@ function browseListCtrl($http, BrowseService) {
       username: "Lexecenti",
       age: 30,
       gender: "female",
-      photo: "woman1.jpg",
+      photo: "../static/img/woman1.jpg",
       pets: {
         cats: [
-          {name: "Fluffy", img: ""},
-          {name: "Pip", img: ""},
-          {name: "Fester", img: ""}
+          {name: "Fluffy", img: "../static/img/cat_01.png"},
+          {name: "Pip", img: "../static/img/cat_01.png"},
+          {name: "Fester", img: "../static/img/cat_01.png"}
         ],
         dogs: [
-          {name: "Nacho", img: ""}
+          {name: "Nacho", img: "../static/img/cat_01.png"}
         ]
       },
     },
@@ -61,15 +61,15 @@ function browseListCtrl($http, BrowseService) {
       username: "Cuddlysist",
       age: 30,
       gender: "female",
-      photo: "woman1.jpg",
+      photo: "../static/img/woman1.jpg",
       pets: {
         cats: [
-          {name: "Fluffy", img: ""},
-          {name: "Pip", img: ""},
-          {name: "Fester", img: ""}
+          {name: "Fluffy", img: "../static/img/cat_01.png"},
+          {name: "Pip", img: "../static/img/cat_01.png"},
+          {name: "Fester", img: "../static/img/cat_01.png"}
         ],
         dogs: [
-          {name: "Nacho", img: ""}
+          {name: "Nacho", img: "../static/img/cat_01.png"}
         ]
       },
     },
@@ -77,15 +77,15 @@ function browseListCtrl($http, BrowseService) {
       username: "MonWanna",
       age: 30,
       gender: "female",
-      photo: "woman1.jpg",
+      photo: "../static/img/woman1.jpg",
       pets: {
         cats: [
-          {name: "Fluffy", img: ""},
-          {name: "Pip", img: ""},
-          {name: "Fester", img: ""}
+          {name: "Fluffy", img: "../static/img/cat_01.png"},
+          {name: "Pip", img: "../static/img/cat_01.png"},
+          {name: "Fester", img: "../static/img/cat_01.png"}
         ],
         dogs: [
-          {name: "Nacho", img: ""}
+          {name: "Nacho", img: "../static/img/cat_01.png"}
         ]
       },
     },
@@ -93,15 +93,15 @@ function browseListCtrl($http, BrowseService) {
       username: "CrazyCatLady",
       age: 30,
       gender: "female",
-      photo: "woman1.jpg",
+      photo: "../static/img/woman1.jpg",
       pets: {
         cats: [
-          {name: "Fluffy", img: ""},
-          {name: "Pip", img: ""},
-          {name: "Fester", img: ""}
+          {name: "Fluffy", img: "../static/img/cat_01.png"},
+          {name: "Pip", img: "../static/img/cat_01.png"},
+          {name: "Fester", img: "../static/img/cat_01.png"}
         ],
         dogs: [
-          {name: "Nacho", img: ""}
+          {name: "Nacho", img: "../static/img/cat_01.png"}
         ]
       },
     },
@@ -109,15 +109,15 @@ function browseListCtrl($http, BrowseService) {
       username: "NicerChik",
       age: 30,
       gender: "female",
-      photo: "woman1.jpg",
+      photo: "../static/img/woman1.jpg",
       pets: {
         cats: [
-          {name: "Fluffy", img: ""},
-          {name: "Pip", img: ""},
-          {name: "Fester", img: ""}
+          {name: "Fluffy", img: "../static/img/cat_01.png"},
+          {name: "Pip", img: "../static/img/cat_01.png"},
+          {name: "Fester", img: "../static/img/cat_01.png"}
         ],
         dogs: [
-          {name: "Nacho", img: ""}
+          {name: "Nacho", img: "../static/img/cat_01.png"}
         ]
       },
     },
@@ -125,15 +125,15 @@ function browseListCtrl($http, BrowseService) {
       username: "Boomion",
       age: 30,
       gender: "female",
-      photo: "woman1.jpg",
+      photo: "../static/img/woman1.jpg",
       pets: {
         cats: [
-          {name: "Fluffy", img: ""},
-          {name: "Pip", img: ""},
-          {name: "Fester", img: ""}
+          {name: "Fluffy", img: "../static/img/cat_01.png"},
+          {name: "Pip", img: "../static/img/cat_01.png"},
+          {name: "Fester", img: "../static/img/cat_01.png"}
         ],
         dogs: [
-          {name: "Nacho", img: ""}
+          {name: "Nacho", img: "../static/img/cat_01.png"}
         ]
       },
     },
@@ -141,15 +141,15 @@ function browseListCtrl($http, BrowseService) {
       username: "BeastBeastBurnt",
       age: 30,
       gender: "female",
-      photo: "woman1.jpg",
+      photo: "../static/img/woman1.jpg",
       pets: {
         cats: [
-          {name: "Fluffy", img: ""},
-          {name: "Pip", img: ""},
-          {name: "Fester", img: ""}
+          {name: "Fluffy", img: "../static/img/cat_01.png"},
+          {name: "Pip", img: "../static/img/cat_01.png"},
+          {name: "Fester", img: "../static/img/cat_01.png"}
         ],
         dogs: [
-          {name: "Nacho", img: ""}
+          {name: "Nacho", img: "../static/img/cat_01.png"}
         ]
       },
     },
@@ -157,15 +157,15 @@ function browseListCtrl($http, BrowseService) {
       username: "HotSpecial",
       age: 30,
       gender: "female",
-      photo: "woman1.jpg",
+      photo: "../static/img/woman1.jpg",
       pets: {
         cats: [
-          {name: "Fluffy", img: ""},
-          {name: "Pip", img: ""},
-          {name: "Fester", img: ""}
+          {name: "Fluffy", img: "../static/img/cat_01.png"},
+          {name: "Pip", img: "../static/img/cat_01.png"},
+          {name: "Fester", img: "../static/img/cat_01.png"}
         ],
         dogs: [
-          {name: "Nacho", img: ""}
+          {name: "Nacho", img: "../static/img/cat_01.png"}
         ]
       },
     },
@@ -173,15 +173,15 @@ function browseListCtrl($http, BrowseService) {
       username: "Amasishi",
       age: 30,
       gender: "female",
-      photo: "woman1.jpg",
+      photo: "../static/img/woman1.jpg",
       pets: {
         cats: [
-          {name: "Fluffy", img: ""},
-          {name: "Pip", img: ""},
-          {name: "Fester", img: ""}
+          {name: "Fluffy", img: "../static/img/cat_01.png"},
+          {name: "Pip", img: "../static/img/cat_01.png"},
+          {name: "Fester", img: "../static/img/cat_01.png"}
         ],
         dogs: [
-          {name: "Nacho", img: ""}
+          {name: "Nacho", img: "../static/img/cat_01.png"}
         ]
       },
     },
@@ -189,15 +189,15 @@ function browseListCtrl($http, BrowseService) {
       username: "Measusa",
       age: 30,
       gender: "female",
-      photo: "woman1.jpg",
+      photo: "../static/img/woman1.jpg",
       pets: {
         cats: [
-          {name: "Fluffy", img: ""},
-          {name: "Pip", img: ""},
-          {name: "Fester", img: ""}
+          {name: "Fluffy", img: "../static/img/cat_01.png"},
+          {name: "Pip", img: "../static/img/cat_01.png"},
+          {name: "Fester", img: "../static/img/cat_01.png"}
         ],
         dogs: [
-          {name: "Nacho", img: ""}
+          {name: "Nacho", img: "../static/img/cat_01.png"}
         ]
       },
     },
