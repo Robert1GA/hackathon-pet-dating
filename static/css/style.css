@@ -19,6 +19,15 @@ body {
 	justify-content: space-between;
 }
 
+h1 {
+	font-size: 40px;
+}
+
+h2 {
+	font-weight: 500;
+	font-size: 25px;
+}
+
 h3 {
 	font-size: 25px;
 	font-weight: 400;
@@ -26,6 +35,7 @@ h3 {
 
 p {
 	font-size: 16px;
+	font-weight: 400;
 }
 
 a {
@@ -36,6 +46,10 @@ a:hover {
 	text-decoration: none;
 }
 
+button:hover {
+	color: white;
+}
+
 .btn {
 	background-color: #FF4A63;
 	border: none;
@@ -44,16 +58,38 @@ a:hover {
 	padding: 10px 14px 8px 14px;
 	box-shadow: 0 4px 0 #e9354e;
 	color: white;
-	font-size: 15px;
-	font-weight: 700;
+	font-size: 16px;
+	font-weight: 500;
 	cursor: pointer;
 	transition-property: transform, box-shadow;
 	transition-duration: 300ms;
 }
 
+.btn-secondary {
+	background-color: #ffa927;
+	border: none;
+	border-radius: 4px;
+	margin: 4px 0 8px 0;
+	padding: 10px 14px 8px 14px;
+	box-shadow: 0 4px 0 #e79416;
+	color: white;
+	font-size: 16px;
+	font-weight: 500;
+	cursor: pointer;
+	transition-property: transform, box-shadow;
+	transition-duration: 300ms;
+	text-shadow: 0 0 6px #b56d01;
+}
+
 .btn:hover {
 	transform: translateY(-2px);
 	box-shadow: 0 6px 0 #e9354e;
+	color: white;
+}
+
+.btn-secondary:hover {
+	transform: translateY(-2px);
+	box-shadow: 0 6px 0 #e79416;
 	color: white;
 }
 
@@ -185,25 +221,36 @@ img.profile-thumb {
 
 /*** PROFILE PAGE STYLES ***/
 
+.profile-overview h1 {
+	color: #3594F7;
+	font-weight: 400;
+}
+
+.profile-overview li {
+	margin-left: -22px;
+	font-size: 16px;
+}
+
+
 .profile-pic {
   height:300px;
   width:250px;
   display:inline-block;
   position:relative;
-  padding: 0px 5px;
+  margin-bottom: 30px;
   float: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
 }
 
 .profile-pic img {
-  height: 250px;
-  width: 225px;
-  padding: 5px;
-  border: 2px solid grey;
+  height: 300px;
   margin-top: 25px;
 }
 
 .thumbContainer {
-  height:300px;
   width:100px;
   display:inline-block;
   position:relative;
@@ -223,22 +270,25 @@ img.profile-thumb {
 .profile-overview {
   height:300px;
   width: 525px;
+  margin-left: 15px;
+  margin-top: -20px;
   display:inline-block;
   position:relative;
   padding: 5px 5px 5px 25px;
-  float: left;
   text-align: left;
 }
 
 .button-links {
-  color:grey;
   text-align: left;
-  background-color: #AAA;
-  padding-bottom: 40px;
+  padding-bottom: 70px;
+
+}
+
+.button-links .btn, .button-links .btn-secondary {
+	margin-right: 5px;
 }
 
 .pet-details {
-
   width: 600px;
   display:inline-block;
   position:relative;
@@ -246,7 +296,7 @@ img.profile-thumb {
   float: left;
   text-align: left;
   margin-top: -40px;
-  background-color: #DDD;
+  background-color: white;
 }
 
 .profile-details {
