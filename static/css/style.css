@@ -1,0 +1,75 @@
+body {
+	font-family: 'Rubik', sans-serif;
+	background-color: #F1F1EF;
+}
+
+h3 {
+	font-size: 24px;
+	font-weight: 400;
+}
+
+.browse-tile {
+	text-align: center;
+	width: 250px;
+	box-shadow: 0 3px 20px #DCDCDB;
+}
+
+.browse-img-container {
+	width: 100%;
+	height: 250px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
+	border-radius: 6px 6px 0 0;
+}
+
+.browse-img-container img {
+	height: 250px;
+}
+
+.browse-info-container {
+	padding: 12px 0 14px 0;
+	border-radius: 0 0 6px 6px;
+	background-color: white;
+}
+
+.browse-info-container h3, 
+.browse-info-container p, 
+.browse-info-container div  {
+	margin: 10px;
+}
+
+.browse-info-container h3 {
+	color: #3594F7;
+}
+
+.animal-icon {
+	margin: 0;
+	padding: 0;
+	height: 32px;
+	width: 32px;
+}
+
+.browse-info-container img {
+	margin: 0 8px;
+}
+
+.browse-info-container span {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.browse-info-pets {
+	display: flex;
+	justify-content: center;
+}
+
+.browse-info-pets span {
+	margin: 0 8px;
+}
+
+.browse-info-pets p {
+	margin-left: 3px;
+}

@@ -8,6 +8,8 @@ angular.module('App')
 function BrowseCompCtrl() {
   var browseComp = this;
 
+  var users = [1, 2, 3, 4, 5];
+
 }
 
 BrowseCompCtrl.$inject = [];
