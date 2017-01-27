@@ -1,7 +1,7 @@
 <div class="body-container">
   <div class="row-contain">
     <div class="profile-pic">
-      <img src="http://www.petmd.com/sites/default/files/boyfriend-man-cat.jpg">
+      <img ng-src="{{profileComp.user.photo}}">
     </div>
     <div class="thumbContainer">
       <div class="profile-thumbs">
@@ -12,8 +12,8 @@
       </div>
     </div>
     <div class="profile-overview">
-      <h2>{{user.username}}</h2>
-      <p>Age: {{user.age}}</p>
+      <h2>{{profileComp.user.username}}</h2>
+      <p>Age: {{profileComp.user.age}}</p>
       <p>Body type:</p>
       <p>Hair:</p>
       <p>Favorite animal:</p>

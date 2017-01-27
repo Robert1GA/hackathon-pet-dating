@@ -9,7 +9,7 @@ function browseListCtrl(UserService) {
 
   var browseList = this;
 
-  browseList.users = UserService;
+  browseList.users = UserService.users;
 
   // browseList.users = [
   //   {

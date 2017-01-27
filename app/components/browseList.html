@@ -1,5 +1,5 @@
 <div class="body-container">
-	<div class="browse-tile" ng-repeat="user in browseList.users track by $index" ng-click="viewProfile(index, user)">
+	<div class="browse-tile" ng-repeat="user in browseList.users track by $index" ui-sref="profileShowState({index: user.id})">
 		<div class="browse-img-container">
 			<img ng-src="{{user.photo}}"" class="profile-thumb" alt=""/>
 		</div>

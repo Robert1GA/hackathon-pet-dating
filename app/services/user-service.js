@@ -2,8 +2,16 @@ angular.module('App')
 .factory('UserService', UserService);
 
 function UserService() {
+  function getUser(id) {
+    for (var i = 0; i < users.length; i++) {
+      // use == to allow string numbers to be equal with actual numbers.
+      if (users[i].id == id) {
+        return users[i];
+      }
+    }
+  }
 
-  users = [
+  var users = [
     {
       id: 1,
       username: "Dityzxrm",
@@ -189,7 +197,10 @@ function UserService() {
     },
   ]
 
-  return users;
+  return {
+    users: users,
+    getUser: getUser
+  };
 }
 
 UserService.$inject = [];
