@@ -1,11 +1,11 @@
 angular.module('App')
 .factory('UserService', UserService);
 
-function UserService($http) {
-  var userList = this;
+function UserService() {
 
-  userList.users = [
+  users = [
     {
+      id: 1,
       username: "Dityzxrm",
       age: 30,
       gender: "female",
@@ -22,6 +22,7 @@ function UserService($http) {
       },
     },
     {
+      id: 2,
       username: "PurrfectBabe82",
       age: 30,
       gender: "female",
@@ -38,6 +39,7 @@ function UserService($http) {
       },
     },
     {
+      id: 3,
       username: "Lexecenti",
       age: 30,
       gender: "female",
@@ -54,6 +56,7 @@ function UserService($http) {
       },
     },
     {
+      id: 4,
       username: "Cuddlysist",
       age: 30,
       gender: "female",
@@ -70,6 +73,7 @@ function UserService($http) {
       },
     },
     {
+      id: 5,
       username: "MonWanna",
       age: 30,
       gender: "female",
@@ -86,6 +90,7 @@ function UserService($http) {
       },
     },
     {
+      id: 6,
       username: "CrazyCatLady",
       age: 30,
       gender: "female",
@@ -102,6 +107,7 @@ function UserService($http) {
       },
     },
     {
+      id: 7,
       username: "NicerChik",
       age: 30,
       gender: "female",
@@ -118,6 +124,7 @@ function UserService($http) {
       },
     },
     {
+      id: 8,
       username: "Boomion",
       age: 30,
       gender: "female",
@@ -134,6 +141,7 @@ function UserService($http) {
       },
     },
     {
+      id: 9,
       username: "BeastBeastBurnt",
       age: 30,
       gender: "female",
@@ -150,6 +158,7 @@ function UserService($http) {
       },
     },
     {
+      id: 10,
       username: "HotSpecial",
       age: 30,
       gender: "female",
@@ -166,6 +175,7 @@ function UserService($http) {
       },
     },
     {
+      id: 11,
       username: "Amasishi",
       age: 30,
       gender: "female",
@@ -182,6 +192,7 @@ function UserService($http) {
       },
     },
     {
+      id: 12,
       username: "Measusa",
       age: 30,
       gender: "female",
@@ -199,4 +210,7 @@ function UserService($http) {
     },
   ]
 
-UserService.$inject = ['$http'];
+  return users;
+}
+
+UserService.$inject = [];
