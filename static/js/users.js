@@ -193,10 +193,10 @@ users = [
 	},
 ]
 
-console.log(users[0].username);
-console.log(users[0].age);
-console.log(users[0].gender);
-console.log(users[0].photo);
-console.log("Cats: " + users[0].pets.cats.length);
-console.log("Dogs: " + users[0].pets.dogs.length);
-console.log(users[0].pets.cats[0].name);
+// console.log(users[0].username);
+// console.log(users[0].age);
+// console.log(users[0].gender);
+// console.log(users[0].photo);
+// console.log("Cats: " + users[0].pets.cats.length);
+// console.log("Dogs: " + users[0].pets.dogs.length);
+// console.log(users[0].pets.cats[0].name);

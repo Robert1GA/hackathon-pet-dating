@@ -10,9 +10,8 @@ function ProfileCompCtrl($stateParams, UserService) {
   profileComp.something = "hey";
   profileComp.user = UserService.getUser($stateParams.index);
 
-  console.log("stateparams", $stateParams)
-	console.log("user", profileComp.user)
-
+  // console.log("stateparams", $stateParams)
+	// console.log("user", profileComp.user)
 
 }
 
