@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="App">
+  <head>
+    <meta charset="UTF-8">
+    <title>Plenty of Cats</title>
+    <base href="/">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/1.0.0-rc.1/angular-ui-router.js"></script>
+
+    <script src='app/app.js'></script>
+    <script src="app/components/browseList.js"></script>
+    <script src='static/js/users.js'></script>
+    <script src='app/containers/home/home.js'></script>
+    <script src='app/containers/browse/browse.js'></script>
+    <script src='app/containers/profile/profile.js'></script>
+    <script src="app/services/user-service.js"></script>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous" />
+
+    <link href="https://fonts.googleapis.com/css?family=Rubik:300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
+    <link rel="stylesheet" href="static/css/style.css">
+
+  </head>
+
+  <body>
+
+    <div id="nav-bar">
+      <a ui-sref="homeState()">
+      <img src="static/img/logo.svg" id="brand-logo" alt="PetLife logo"/>
+      </a>
+      <a ui-sref="browseState()">Browse</a>
+      <a ui-sref="profileState()">Profile</a>
+    </div>
+
+    <div class="body-container">
+      <div ui-view></div>
+    </div>
+
+  </body>
+</html>
