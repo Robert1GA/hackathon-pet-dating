@@ -19,7 +19,7 @@ angular.module('App',['ui.router'])
   })
 
   // // Removes # symbol for our routes
-  $locationProvider.html5Mode(true);
+  // $locationProvider.html5Mode(true);
 
   }
 ]);
